@@ -7,11 +7,11 @@ const session = process.env.SESSION || '';
 
 const prefix = process.env.PREFIX || '';
 const mycode = process.env.CODE || "254";
-const author = process.env.STICKER_AUTHOR || 'BERA';
+const author = process.env.STICKER_AUTHOR || '🅑︎🅐︎🅡︎🅐︎🅒︎🅚︎';
 const packname = process.env.PACKNAME || 'keith';
-const dev = process.env.DEV || '254743982206';
+const dev = process.env.DEV || '254717261760';
 const DevKeith = dev.split(",");
-const botname = process.env.BOTNAME || 'BERA-MD';
+const botname = process.env.BOTNAME || '𝐍𝐀𝐑𝐂𝐎𝐓𝐈𝐂𝐒';
 const mode = process.env.MODE || 'public';
 const gcpresence = process.env.GC_PRESENCE || 'false';
 const antionce = process.env.ANTIVIEWONCE || 'true';
