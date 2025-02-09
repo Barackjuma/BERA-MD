@@ -14,7 +14,7 @@ module.exports = async (context) => {
     await client.sendMessage(m.chat, {
       contacts: {
         displayName: botname,
-        contacts: [{ 254717261760 }],
+        contacts: [{ vcard }],
       },
     }, { quoted: m });
   } catch (error) {
