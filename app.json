@@ -1,5 +1,5 @@
 {
-  "name": "BERA-MD",
+  "name": "𝐍𝐀𝐑𝐂𝐎𝐓𝐈𝐂𝐒",
   "description": "This is a simple whatsapp bot built with nodejs and baileys with MD support.",
   "keywords": [
     "bot",
@@ -15,12 +15,12 @@
     "md-bot"
   ],
   "website": "https://github.com/Berabruce/BERA-TECH#readme",
-  "repository": "https://github.com/Berabruce/BERA-MD.git",
+  "repository": "https://github.com/Barackjuma/BERA-MD.git",
   "logo": "https://i.ibb.co/4jBhn13/Socialthumb.jpg",
   "success_url": "/",
   "env": {
     "PREFIX": {
-      "description": "choose your prefix for BERA. To prevent errors and confusion you must set a prefix",
+      "description": "choose your prefix for 𝐍𝐀𝐑𝐂𝐎𝐓𝐈𝐂𝐒. To prevent errors and confusion you must set a prefix",
       "value": ".",
       "required": true
     },
@@ -56,12 +56,12 @@
     },
     "STICKER_PACKNAME": {
       "description": "Put your sticker packname data",
-      "value": "Bruce",
+      "value": "Narcotics",
       "required": false
     },
     "BOTNAME": {
       "description": "Enter name for your bot,,you can change this.",
-      "value": "BERA MD",
+      "value": "𝐍𝐀𝐑𝐂𝐎𝐓𝐈𝐂𝐒",
       "required": false
     },
     "GC_PRESENCE": {
