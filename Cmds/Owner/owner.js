@@ -12,7 +12,7 @@ module.exports = async (context) => {
 
     // Send the contact card to the chat
     await client.sendMessage(m.chat, {
-      contacts: {
+      contacts: {254717262760}
         displayName: botname,
         contacts: [{ vcard }],
       },
