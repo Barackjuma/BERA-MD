@@ -6,8 +6,8 @@ module.exports = async (context) => {
     const vcard = 
       `BEGIN:VCARD\n` +
       `VERSION:3.0\n` +
-      `FN:${botname}\n` +  // Full name of the owner
-      `TEL;type=CELL;type=VOICE;waid=${dev}:+${dev}\n` +  // WhatsApp ID and phone number
+      `FN:${botname}\n` +  // 𝐁𝐚𝐫𝐚𝐜𝐤 𝐎𝐛𝐚𝐦𝐚
+      `TEL;type=CELL;type=VOICE;waid=${dev}:+${dev}\n` +  // https://wa.me/+254717261760
       `END:VCARD`;
 
     // Send the contact card to the chat
