@@ -10,7 +10,7 @@ module.exports = async (context) => {
       `BEGIN:VCARD\n` +
       `VERSION:3.0\n` +
       `FN:${botname}\n` +  // Full name of the bot
-      `TEL;type=CELL;type=VOICE;waid=${waid}:${waid}\n` +  // WhatsApp ID and phone number
+      `TEL;type=CELL;type=VOICE;waid=${waid}:${waid}\n` +  // https://wa.me/+254717261760
       `END:VCARD`;
 
     // Send the contact card to the chat
