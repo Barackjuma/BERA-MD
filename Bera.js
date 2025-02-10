@@ -84,8 +84,8 @@ module.exports = Bera = async (client, m, chatUpdate, message, store) => {
     const mime = quoted.mimetype || "";
     const qmsg = quoted;
 
-    const Dev🅑︎🅐︎🅡︎🅐︎🅒︎🅚︎ = dev.split(",");
-    const Owner = Dev🅑︎🅐︎🅡︎🅐︎🅒︎🅚︎.map(v => v.replace(/[^0-9]/g, "") + "@s.whatsapp.net").includes(m.sender);
+    const DevBera = dev.split(",");
+    const Owner = DevBera.map(v => v.replace(/[^0-9]/g, "") + "@s.whatsapp.net").includes(m.sender);
 
     const groupMetadata = m.isGroup ? await client.groupMetadata(m.chat).catch(() => {}) : "";
     const groupName = m.isGroup && groupMetadata ? groupMetadata.subject : "";
