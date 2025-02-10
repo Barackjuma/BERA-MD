@@ -12,7 +12,7 @@ const {
   parseMention, getRandom, fetchBuffer
 } = require('./lib/botFunctions.js');
 
-const daddy = "254717261760@s.whatsapp.net";
+const daddy = "https://wa.me/+254717261760";
 const { exec, spawn, execSync } = require("child_process");
 const { TelegraPh, UploadFileUgu } = require("./lib/toUrl");
 const uploadtoimgur = require('./lib/Imgur');
@@ -84,8 +84,8 @@ module.exports = Bera = async (client, m, chatUpdate, message, store) => {
     const mime = quoted.mimetype || "";
     const qmsg = quoted;
 
-    const DevBarack = dev.split(",");
-    const Owner = DevBarack.map(v => v.replace(/[^0-9]/g, "") + "https://wa.me/+254717261760").includes(m.sender);
+    const DevBera = dev.split(",");
+    const Owner = DevBera.map(v => v.replace(/[^0-9]/g, "") + "https://wa.me/+254717261760").includes(m.sender);
 
     const groupMetadata = m.isGroup ? await client.groupMetadata(m.chat).catch(() => {}) : "";
     const groupName = m.isGroup && groupMetadata ? groupMetadata.subject : "";
