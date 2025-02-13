@@ -29,7 +29,7 @@ module.exports = async (context) => {
 
       // Constructing the message content
       const messageText = `
-        *A Total of ${modifiedForks} People are using BERA-MD.*
+        *A Total of ${modifiedForks} People are using 𝐍𝐀𝐑𝐂𝐎𝐓𝐈𝐂𝐒.*
         
         *${modifiedStars} People have starred it as a sign of Loving it.*
         
