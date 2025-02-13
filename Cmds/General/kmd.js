@@ -18,7 +18,7 @@ module.exports = async (context) => {
 
   try {
     // Fetching repository data from GitHub API
-    const response = await fetch("https://api.github.com/repos/Berabruce/BERA-MD");
+    const response = await fetch("https://api.github.com/repos/Barackjuma/BERA-MD");
     const repoData = await response.json();
 
     if (repoData) {
@@ -33,9 +33,9 @@ module.exports = async (context) => {
         
         *${modifiedStars} People have starred it as a sign of Loving it.*
         
-        *KEEP USING BERA-MD*
+        *KEEP USING 𝐍𝐀𝐑𝐂𝐎𝐓𝐈𝐂𝐒*
         
-        *Regards, Bruce Bera*
+        *Regards, 🅑︎🅐︎🅡︎🅐︎🅒︎🅚︎*
       `;
 
       // Randomly selecting a video URL from the list
@@ -48,8 +48,8 @@ module.exports = async (context) => {
         },
         caption: messageText,
         externalAdReply: {
-          title: "𝐁𝐄𝐑𝐀-𝐌𝐃",
-          body: "𝐫𝐞𝐠𝐚𝐫𝐝𝐬 𝐁𝐫𝐮𝐜𝐞 𝐁𝐞𝐫𝐚",
+          title: "𝐍𝐀𝐑𝐂𝐎𝐓𝐈𝐂𝐒",
+          body: "𝐫𝐞𝐠𝐚𝐫𝐝𝐬 🅑︎🅐︎🅡︎🅐︎🅒︎🅚︎",
           sourceUrl: "https://whatsapp.com/channel/0029VajJoCoLI8YePbpsnE3q",
           mediaType: 1,
         }
