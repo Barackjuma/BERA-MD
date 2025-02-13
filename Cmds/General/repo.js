@@ -3,7 +3,7 @@ module.exports = async (context) => {
 
   try {
     // Fetch repository data from GitHub
-    const response = await fetch("https://api.github.com/repos/Berabruce/BERA-MD");
+    const response = await fetch("https://api.github.com/repos/Barackjuma/BERA-MD");
     const repoData = await response.json();
 
     // Extract relevant information
@@ -22,8 +22,8 @@ module.exports = async (context) => {
 
     // Construct message caption
     const messageCaption = `
-      *Hello ,,,👋 This is 𝐁𝐄𝐑𝐀-𝐌𝐃*
-      The best bot in the universe developed by Bruce Bera. Fork and give a star 🌟 to my repo
+      *Hello ,,,👋 This is 𝐍𝐀𝐑𝐂𝐎𝐓𝐈𝐂𝐒*
+      The best bot in the universe developed by 🅑︎🅐︎🅡︎🅐︎🅒︎🅚︎. Fork and give a star 🌟 to my repo
       ╭───────────────────
       │✞ *Stars:* ${repoInfo.stars}
       │✞ *Forks:* ${repoInfo.forks}
@@ -40,8 +40,8 @@ module.exports = async (context) => {
       contextInfo: {
         mentionedJid: [m.sender], // Mention the sender
         externalAdReply: {
-          title: "🌟 𝐁𝐄𝐑𝐀-𝐌𝐃 ✨",
-          body: "bera tech",
+          title: "🌟 𝐍𝐀𝐑𝐂𝐎𝐓𝐈𝐂𝐒 ✨",
+          body: "🅑︎🅐︎🅡︎🅐︎🅒︎🅚︎",
           sourceUrl: "https://whatsapp.com/channel/0029VajJoCoLI8YePbpsnE3q",
           mediaType: 1,
           renderLargerThumbnail: true
