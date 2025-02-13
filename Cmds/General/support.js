@@ -9,9 +9,9 @@ module.exports = async (context) => {
     
   │ *wagroup:*  https://chat.whatsapp.com/D3iyJB5hrhF7ov7JxgW92C
 
-  │ *Telegram:*  https://t.me/BERA_TECH
+  │ *Telegram:*  https://t.me/Narco_tics
     
-  │ *Contact owner:* https://wa.me/qr/7HLS3WQTBCI6O1
+  │ *Contact owner:* https://wa.me/+254717261760
 
  ╰─────────────────── 
   `;
