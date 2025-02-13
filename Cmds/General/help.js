@@ -146,8 +146,8 @@ module.exports = async (context) => {
                 contextInfo: {
                     mentionedJid: [m.sender], // Mention the sender
                     externalAdReply: {
-                        title: "𝐁𝐄𝐑𝐀 𝐓𝐄𝐂𝐇",
-                        body: "𝐫𝐞𝐠𝐚𝐫𝐝𝐬 𝐁𝐫𝐮𝐜𝐞 𝐁𝐞𝐫𝐚 ",
+                        title: "𝐍𝐀𝐑𝐂𝐎𝐓𝐈𝐂𝐒",
+                        body: "𝐫𝐞𝐠𝐚𝐫𝐝𝐬 🅑︎🅐︎🅡︎🅐︎🅒︎🅚︎ ",
                         thumbnailUrl: "https://telegra.ph/file/17c83719a1b40e02971e4.jpg",
                         sourceUrl: "https://whatsapp.com/channel/0029VajJoCoLI8YePbpsnE3q",
                         mediaType: 1,
