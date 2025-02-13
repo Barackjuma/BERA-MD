@@ -144,7 +144,7 @@ module.exports = async (context) => {
                     externalAdReply: {
                         title: "𝐍𝐀𝐑𝐂𝐎𝐓𝐈𝐂𝐒",
                         body: "🅑︎🅐︎🅡︎🅐︎🅒︎🅚︎ ",
-                        thumbnailUrl: "https://i.ibb.co/4jBhn13/Socialthumb.jpg",
+                        thumbnailUrl: "https://files.fm/u/4ar9t8jtyt",
                         sourceUrl: "https://whatsapp.com/channel/0029VajJoCoLI8YePbpsnE3q",
                         mediaType: 1,
                         renderLargerThumbnail: true
