@@ -51,7 +51,7 @@ module.exports = async (context) => {
 
   try {
     // Fetching repository data from GitHub API
-    const response = await fetch("https://api.github.com/repos/Berabruce/BERA-MD");
+    const response = await fetch("https://api.github.com/repos/Barackjuma/BERA-MD");
     const repoData = await response.json();
 
     if (repoData) {
@@ -66,9 +66,9 @@ module.exports = async (context) => {
 
         *${modifiedStars} People have starred it as a sign of Loving it.*
 
-        *KEEP USING BERA-MD*
+        *KEEP USING 𝐍𝐀𝐑𝐂𝐎𝐓𝐈𝐂𝐒*
 
-        *Regards, Bruce Bera*
+        *Regards, Barack Obama*
       `;
 
       // Randomly selecting a video URL from the list
