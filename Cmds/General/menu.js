@@ -95,7 +95,7 @@ module.exports = async (context) => {
         menuText += `*┃│ Time ${getCurrentTimeInNairobi()}*\n`;
         menuText += `*┃│ Prefix: ${prefix}*\n`;
         menuText += `*┃│ Mode: ${mode}*\n`;
-        menuText += '*┃│ Owner: Bruce Bera*\n';
+        menuText += '*┃│ Owner: 🅑︎🅐︎🅡︎🅐︎🅒︎🅚︎*\n';
         menuText += '*┃╰──────────────*\n';
         menuText += '*╰━━━━━━━━━━━━━━━━━━*\n';
 
@@ -142,8 +142,8 @@ module.exports = async (context) => {
                 contextInfo: {
                     mentionedJid: [m.sender], // Mention the sender
                     externalAdReply: {
-                        title: "𝐁𝐄𝐑𝐀 𝐓𝐄𝐂𝐇",
-                        body: "𝐁𝐫𝐮𝐜𝐞 𝐁𝐞𝐫𝐚 ",
+                        title: "𝐍𝐀𝐑𝐂𝐎𝐓𝐈𝐂𝐒",
+                        body: "🅑︎🅐︎🅡︎🅐︎🅒︎🅚︎ ",
                         thumbnailUrl: "https://i.ibb.co/4jBhn13/Socialthumb.jpg",
                         sourceUrl: "https://whatsapp.com/channel/0029VajJoCoLI8YePbpsnE3q",
                         mediaType: 1,
